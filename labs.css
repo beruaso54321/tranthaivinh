@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+main {
+    flex-flow: column;
+    /* text-align: center; */
+}
+
+h2 {
+    margin-top: 21px;
+    text-align: center;
+}
+
+.labs {
+    display: flex;
+    margin: 18px auto 36px auto;
+    justify-content: space-between;
+    min-width: 800px;
+}
+
+.lab {
+    max-width: 210px;
+    flex-basis: 25%;
+}
+
+table {
+    height: 100%;
+    width: 180px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: top;
+}
+
+th {
+    height: 40px;
+}
+tfoot td {
+    height: 20px;
+    color: red;
+    text-align: center;
+}
